@@ -1,0 +1,40 @@
+
+/* url for icon changes and fonts changes link imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* selecting/giving all HTML elements on the page changes  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+/* giving a body background color as per my understanding */
+body{
+    background-color: rgb(233,230,225);
+}
+/* difining header section */
+.header-nav {
+    overflow: hidden;
+    background-color: #9a5f5f;
+}
+
+.header-nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.header-nav a:hover {
+    background-color:rgb(200, 44, 44);
+    color: rgb(201, 176, 176);
+}
+
+.header-nav .right-side{
+    overflow: hidden;
+    background-color: #9a5f5f; 
+}
