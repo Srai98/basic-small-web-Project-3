@@ -17,14 +17,20 @@ body{
     background-color: rgb(233,230,225);
     height: 100%;
 }
+
 .nav {
+    top: 0;  
     overflow: hidden;
     background-color: #333;
+    /* background-color: rgb(51,51,51); */
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
   
-  .nav a {
+.nav .mytune a ,.Overview a ,.Music a, .Video a ,.giftcard a{
     float: left;
-    color: #f2f2f2;
+    color: rgb(242,242,242);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,8 +41,115 @@ body{
     background-color: #ddd;
     color: black;
   }
-  
-  .nav a.active {
-    background-color: #04AA6D;
-    color: white;
+                    /* ---------------------------------------------------------------------------------------- */
+                                          /* body section after header is started  */
+                    /* ---------------------------------------------------------------------------------------- */
+/* home section start  */
+#m-home {
+    position: relative;
+}
+
+/* background img height and width defining */
+#m-home img{
+    width: 100%;
+    /* height: 160vh; */
+    height: 100%;
+}
+
+/* all text tag overlay on background img  */
+.home-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+}
+.m-head{
+  color: red;
+  margin-bottom: 13rem;
+  align-items: center;
+  text-align: center;
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+/* h1 tag defined  */
+  .home-overlay h1 {
+    padding-top: 1rem;
+    display: absolute;
+    margin-bottom: 8rem;
+    padding-left: 1rem;
   }
+
+/* paragraph of music defined in MyTune container layout  */
+.home-overlay .home-p{
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(209, 206, 206);
+  background-color: rgba(80, 80, 80, 0.5);
+}
+
+/* container musics start  */
+#m-music{
+  padding: 2rem;
+  position: relative;
+  background-color: rgba(37, 35, 35, 0.8);
+}
+
+/* working with icon  */
+#m-music i{
+  color: red;
+  font-size: 2rem;
+  display: flex;
+  padding-top: 2.5rem;
+  margin-bottom: 0.1rem;
+  margin-left: 40rem;
+  text-align: center;
+  align-items: center;
+}
+/* h2 section changes  */
+#m-music .ms{
+  display: flex;
+  margin-top: -2.3rem;
+  margin-left: 42.5rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+/* music conatiner h4 tag section  */
+.h-m{
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-right: 5rem;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+/* music paragraph container  */
+.music-p{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+button{
+  display: flex;
+  background-color: red;
+  color: white;
+  margin: 1.5rem 1rem 1rem 39rem;
+  padding: 0.5rem 1rem ;
+  border: 0.1rem solid rgba(37, 35, 35, 0.8);
+  align-items: center;
+  text-align: center;
+}
+
+/* p tag in music section   */
+#m-music .music-p2{
+  color: white;
+  padding-left: 6rem;
+  font-weight: 200;
+  font-size: 2rem;
+  background-color:  rgba(37, 35, 35, 0.1);
+}
