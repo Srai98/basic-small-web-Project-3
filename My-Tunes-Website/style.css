@@ -125,14 +125,16 @@ body{
   padding-top: 3rem;
   padding-right: 5rem;
   font-weight: 100;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
-/* music paragraph container  */
+
+/* p1 tag in music section  */
 .music-p{
   padding-top: 1rem;
   padding-left: 1rem;
   font-weight: 100;
   font-size: 1.2rem;
+  color: white;
 }
 button{
   display: flex;
@@ -145,11 +147,48 @@ button{
   text-align: center;
 }
 
-/* p tag in music section   */
-#m-music .music-p2{
+/* p2 tag in music section   */
+#m-music .music-p2 {
   color: white;
   padding-left: 6rem;
   font-weight: 200;
   font-size: 2rem;
   background-color:  rgba(37, 35, 35, 0.1);
+}
+
+/* started video section conatiner  */
+#m-video{
+  position: relative;
+  /* background-color: rgba(37, 35, 35, 0.8); */
+  background-color: black;
+}
+
+#m-video img{
+  width: 60%;
+  height: 50%;
+  padding-left: 15rem;
+}
+
+/* h3 tag section in video */
+.v-h3{
+  display: relative;
+  color: white;
+}
+/* p1 section in video */
+.v-p{
+  color: grey;
+}
+
+#m-video h4{
+  color: white;
+}
+/* p para 2 section text in video */
+#m-video p{
+  color: white;
+}
+
+#m-giftcard{
+  display: grid;
+  grid-template-columns: 50 50;
+  background-color: rgb(56, 52, 52);
 }
