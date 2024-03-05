@@ -52,7 +52,6 @@ body{
 /* background img height and width defining */
 #m-home img{
     width: 100%;
-    /* height: 160vh; */
     height: 100%;
 }
 
@@ -159,36 +158,100 @@ button{
 /* started video section conatiner  */
 #m-video{
   position: relative;
-  /* background-color: rgba(37, 35, 35, 0.8); */
+  background-color: rgba(37, 35, 35, 0.8);
   background-color: black;
 }
 
 #m-video img{
-  width: 60%;
-  height: 50%;
-  padding-left: 15rem;
+  width: 100%;
+  height: 100%;
+  filter: blur(6px); 
 }
 
 /* h3 tag section in video */
 .v-h3{
   display: relative;
   color: white;
+  font-size: 2rem;
+  text-align: center;
 }
 /* p1 section in video */
 .v-p{
   color: grey;
+  padding: 0.5rem;
 }
 
-#m-video h4{
-  color: white;
+/* all text tag overlay on background img  */
+.over-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
 }
+.over-video h4{
+  display: absolute;
+  color: orange;
+  font-size: 1.6rem;
+  text-align: center;
+  animation: fadeIn 2.5s ease-in-out 1.3s infinite;
+}
+/* for fade taken a refrence from internet  */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* p para 2 section text in video */
-#m-video p{
-  color: white;
+.over-video p{
+  color: rgb(52, 255, 116);
+  padding: 0.5rem;
 }
-
+/* gitcard defined in grid for lookout  */
 #m-giftcard{
   display: grid;
-  grid-template-columns: 50 50;
+  grid-template-columns: 50% 50%;
   background-color: rgb(56, 52, 52);
+}
+
+/* gift section text defined  */
+#m-giftcard .m-r-gift{
+  margin-top: 10rem;
+  display:relative;
+  color: white;
+  gap: 2rem;
+}
+ /* h tag of gift  */
+.m-r-gift h2{
+  color: white;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.m-r-gift .pg{
+  font-weight: 200;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+/* fiest paragraph section in right side  */
+.m-r-gift .p-gift{
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+/* arrow pointer with text */
+.m-r-gift .ar-gt{
+  display: flex;
+  margin-top: 1.4rem;
+  color: white;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.m-r-gift .ar-gt:hover{
+color: yellow;
+}
+.m-r-gift .ar-gt p{
+  margin-top: -0.3rem;
 }
