@@ -70,9 +70,12 @@ a{
 .left .logo:hover{
     color: aquamarine;
 }
+/* left side of text behaviour over a curser pointer */
 .left .survey:hover{
     color: aqua;
+    cursor: pointer;
 }
+/* right side of text highper link behaviours over a mouse on text */
 .right .right-home:hover , .right .right-source-code:hover , .right-sign-up:hover , .right-login:hover{
     color: yellow;
 }
@@ -221,10 +224,11 @@ a{
     color: white;
     background-color: rgba(80, 80, 80, 0.5);
 }
+/* defined button behaviours  */
 .button {
     width: 5rem; 
     height: 2rem;
-    background-color: rgb(89, 75, 219);
+    background-color: rgb(246, 10, 10);
     color: white;
     border: none;
 }

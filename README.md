@@ -6,6 +6,6 @@
 
 - 🌱 I’m currently learning **Full Stack Developer**
 
-- 💬 Ask me about **HTML , CSS , SQL , PL/SQL , Jasper Report**
+- 💬 Ask me about **HTML , CSS , POSTGRESQL , PL/SQL , Jasper Report**
 
 - 📫 How to reach me **rai92529@gmail.com**
