@@ -28,7 +28,7 @@ body{
     z-index: 1000;
   }
 
-/*  defined highperlink for the anchor tag all header container   */
+/*  defined hyperlink for the anchor tag all header container   */
 .nav .mytune a ,.Overview a ,.Music a, .Video a ,.giftcard a{
     float: left;
     color: rgb(242,242,242);

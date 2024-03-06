@@ -59,7 +59,7 @@ img{
     color: white;
 }
 
-/* hiding a underline of highperlink in header section for All*/
+/* hiding a underline of hyperlink in header section for All*/
 a{
     text-decoration: none;
     color: white;
@@ -75,7 +75,7 @@ a{
     color: aqua;
     cursor: pointer;
 }
-/* right side of text highper link behaviours over a mouse on text */
+/* right side of text hyperlink behaviours over a mouse on text */
 .right .right-home:hover , .right .right-source-code:hover , .right-sign-up:hover , .right-login:hover{
     color: yellow;
 }
