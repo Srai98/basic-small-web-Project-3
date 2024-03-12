@@ -1,30 +1,28 @@
 /* url for icon changes and fonts changes f-link imported */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* CSS Styles for the footer */
 
+/* CSS Styles for the footer position*/
 footer {
     position: fixed;
     bottom: 0; 
     width: 100%; 
     background-color:rgb(41,63,80);
   }
-
+/* left side of container in footer section  */
   .f-left{
     position: flex;
     margin-top: 1rem;
   }
     /* left section text h tag behaviour  */
-    .style-f .left-f-h1{
+  .style-f .left-f-h1{
         color: cornsilk;
-    }
-/* ---- */
-  
+  }
+  /* right side of container section  */
   .footer-right {
     display: flex;
     /* margin-top: -1rem;  */
     gap: 0.1rem;
-    /* border: 0.1rem solid red; */
-   
+    /* border: 0.1rem solid red; */ 
   }
   
   /* for hyperf-link on right side all section 2nd container  */
