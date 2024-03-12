@@ -15,14 +15,14 @@
     align-items: center;
     text-align: center;
     font-size: 2rem;
-    border: 0.5rem solid red;
+    /* border: 0.5rem solid red; */
     color: aliceblue;
 }
 
 /* left section text h tag hyperlink    behaviour  */
 .style-head .left-head-h1 a{
-    color: black;
-    /* color: green; */
+    /* color: black; */
+    color: cornsilk;
     text-decoration: none;
 }
 /* hover over a curser behaviors  */
@@ -50,7 +50,8 @@
 
 /* right side 1st section h tag defining  */
 .ab-ref .ab-ref-h3{
-    color: white;
+    /* color: white; */
+    color :rgb(89,135,128);
     align-items: center;
     text-align: center;
     padding-left: 60rem;
