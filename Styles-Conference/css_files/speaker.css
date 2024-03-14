@@ -1,7 +1,6 @@
 /* url for icon changes and fonts changes link imported */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 /* selecting/giving all HTML elements on the page changes  */
 *{
     margin: 0;
@@ -14,8 +13,53 @@
 /* giving a body background color as per my understanding */
 body{
     display: relative;
-    background-color: rgb(233,230,225);
+    background-color:whitesmoke;
     width: 100%;
     height: 100%;
     overflow-x: hidden;   
+
+}
+
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    /* background-color:rgb(185,219,186); */
+    background: linear-gradient(to right, rgb(185,219,186), rgb(235,237,206));
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;    
+}
+/* ---------------------------------- */    
+/* defined a container for text and buttoons  */
+.sec-h .s-h2{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    font-size: 2rem;
+    font-weight:500;
+    color :rgb(89,135,128);
+
+}
+/* h4 tag section behaviour defined  */
+.sec-h .s-p{
+    /* border: 0.1rem solid red; */
+    color: grey;
+    padding:0.5rem;   
+}
+/* ------------------------- */
+.grid{
+    display: relative;
+}
+/* conatainer behaviours defined how it should be looks in html  */
+.grid .s1 ,.grid .s2 ,.grid .s3 ,.grid .s4 ,.grid .s5 ,.grid .s6 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.grid img{
+    border-radius: 50%;
 }
