@@ -51,3 +51,19 @@ section{
     color: grey;
     padding:0.5rem;   
 }
+
+table {
+    /* border-collapse: collapse; */
+    border: 0.1rem solid red;
+    border-spacing: 0;
+    margin-bottom: 44px;
+    width: 100%;
+}
+td{
+
+    border: 0.1rem solid grey;
+}
+
+table th.h-rows {
+    color: red;
+}
