@@ -14,7 +14,7 @@
 /* giving a body background color as per my understanding */
 body{
     display: relative;
-    background-color:whitesmoke;
+    background-color:rgb(255,255,255);
     width: 100%;
     height: 100%;
     overflow-x: hidden;   
@@ -52,18 +52,60 @@ section{
     padding:0.5rem;   
 }
 
+/* container of header table defined  */
 table {
-    /* border-collapse: collapse; */
-    border: 0.1rem solid red;
-    border-spacing: 0;
-    margin-bottom: 44px;
-    width: 100%;
+    width: 80%;
+    border-collapse: collapse;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    /* border: 0.2rem solid red; */
+  }
+  
+/* th  border and padding defined and how it should behave */
+  th {    
+    padding:0.6rem 2rem 0.5rem 1rem;
+    text-align: left;
+    /* background-color: white; */
+    font-weight: 500;
+    /* border-bottom: 1px solid rgb(63, 63, 77); */
+  }
+  /* th first section defined  */
+  .h-rows{
+    font-size: 1.5rem;
+    color :rgb(89,135,128);
+  }
+  /* th 2nd section defined  */
+  .l-r{
+    color: grey;
+  }
+  /* all td in table defined  */
+  td {    
+    padding-top: 0.8rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    color:rgb(169,178,185);
+    font-size:1rem;
+    margin-left: 10rem;
+    border-bottom: 1px solid rgb(141,141,141);
+    /* border: 0.1rem solid yellow; */
+  }
+  /* td time tah defined its behaviours  */
+  .time{
+    border: none;
+    padding-left: 5rem;
+  }
+/* td rows behaviours defined color and size */
+.rows{
+    color :rgb(89,135,128); 
+    font-size: 1.2rem;
 }
-td{
-
-    border: 0.1rem solid grey;
+/* td rows behaviours defined color and size td tag with h5 and break tag */
+.rows h5{
+    color: rgb(169,178,185);
+    font-size:1rem;
 }
-
-table th.h-rows {
-    color: red;
+/* td rows behaviours defined color and size for h5 */
+  .topic {
+    font-weight: 400;
 }
