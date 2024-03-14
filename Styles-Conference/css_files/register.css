@@ -20,3 +20,52 @@ body{
     overflow-x: hidden;   
 
 }
+
+/* right section container defined  */
+.right-main{
+    display: relative;
+    border: 0.2rem solid;
+    padding-left: 10rem;
+    height: 100%;
+}
+
+/* defined a section container after a header */
+section{
+    /* border: 0.1rem solid red; */
+    padding: 1rem;
+    background-color:rgb(229,235,204);
+    color: white;
+    text-align: center;
+    
+}
+/* defined a container for text and buttoons  */
+.s-h-lower .lower-h2{
+    gap: 1rem;
+    /* border: 0.1rem solid red; */
+    margin: 0.1rem;
+    font-size: 2rem;
+    color :rgb(89,135,128);
+
+}
+/* h4 tag section behaviour defined  */
+.s-h-lower .lower-s-p{
+    /* border: 0.1rem solid red; */
+    color: grey;
+    padding:0.5rem;   
+}
+
+/* defined container behaviours  */
+.m-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left-main .left-m1 h2{
+    color :rgb(89,135,128);
+   padding-left: 5rem;
+}
+
+.left-main .left-m1 h4{
+    color: grey;
+    padding-left: 5rem;
+}

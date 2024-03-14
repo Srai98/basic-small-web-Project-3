@@ -35,7 +35,7 @@
     background-color:rgb(41,63,80);
     /* background-color: green; */
     display: grid;
-    margin-top: -7rem; /*making it left and right container behaviours in a same place*/
+    margin-top: -6rem; /*making it left and right container behaviours in a same place*/
     gap: 0.5rem;
     
 }
