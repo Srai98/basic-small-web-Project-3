@@ -60,6 +60,32 @@ section{
     align-items: center;
 }
 
+.right-1 ,.right-2 ,.right-3 ,.right-4 ,.right-5 ,.right-6 {
+    padding-left: 2rem;
+    padding-right: 1rem;    
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+    /* border: 0.1rem solid red; */
+    list-style-type: none;
+    align-items: center;
+}
+.right-1 .inner , .right-2 .inner , .right-3 .inner , .right-4 .inner , .right-5 .inner, .right-6 .inner{
+    border: 0.1rem solid grey;  
+    padding-top: 4rem;  
+    align-items: center;
+    text-align: center;
+} 
+
+.right-1 li,.right-2 li,.right-3 li,.right-4 li,.right-5 li,.right-6 li{
+    list-style-type: none;    
+}
+/* all right side in second section img behaviours  */
 .grid img{
+    margin-bottom: -4rem;
+    margin-left: 6rem;
+    align-items: center;
     border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
 }
