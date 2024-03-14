@@ -14,6 +14,9 @@ footer {
 /* left side footer text behaviours  */
 .style-f .left-f-h1{
   font-size: 1rem;
+  margin-left: 5rem;
+  color: rgb(100,136,128);
+  /* border: 0.1rem solid; */
 }
 /* right side container behaviours defined  */
 .f-link {
